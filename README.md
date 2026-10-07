@@ -11,7 +11,7 @@ Open the [0.2.0 preview release](https://github.com/sign-out/voyage-workbench-do
 | Android phones (ARM64; Android 13+) | `Voyage-Workbench-0.2.0-arm64.apk` |
 | Android x86-64 devices/emulators | `Voyage-Workbench-0.2.0-x86_64.apk` |
 | Android, both architectures | `Voyage-Workbench-0.2.0-universal.apk` |
-| Windows x64 portable | `Voyage Workbench 0.2.0.exe` |
+| Windows x64 portable | `Voyage-Workbench-0.2.0-windows-x64.exe` |
 | Linux x64 | `Voyage-Workbench-0.2.0-linux-x64.tar.gz` |
 
 For most Android phones, use the ARM64 APK. Allow installation from the source used to open it. Extract the entire Linux archive and launch `linux-unpacked/voyage-workbench`, keeping its resources together. Verify downloads with `SHA256SUMS-0.2.0.txt`.
