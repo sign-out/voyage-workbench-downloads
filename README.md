@@ -1,26 +1,26 @@
 # Voyage Workbench personal testing downloads
 
-## Version 0.2.5 — Graphite UI
+## Version 0.2.6 — Settings & full-screen previews
 
 Personal preview/testing builds, not a production-store release. Downloads contain built apps and checksums only.
 
 | Platform | Download |
 | --- | --- |
-| Most Android phones — ARM64, Android 13+ | [ARM64 APK](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.5/Voyage-Workbench-0.2.5-arm64.apk) |
-| Android x86_64 devices/emulators | [x86_64 APK](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.5/Voyage-Workbench-0.2.5-x86_64.apk) |
-| Android, both architectures | [Universal APK](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.5/Voyage-Workbench-0.2.5-universal.apk) |
-| Windows x64 portable | [Windows executable](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.5/Voyage-Workbench-0.2.5-windows-x64.exe) |
-| Linux x64 | [Linux application archive](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.5/Voyage-Workbench-0.2.5-linux-x64.tar.gz) |
+| Most Android phones — ARM64, Android 13+ | [ARM64 APK](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.6/Voyage-Workbench-0.2.6-arm64.apk) |
+| Android x86_64 devices/emulators | [x86_64 APK](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.6/Voyage-Workbench-0.2.6-x86_64.apk) |
+| Android, both architectures | [Universal APK](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.6/Voyage-Workbench-0.2.6-universal.apk) |
+| Windows x64 portable | [Windows executable](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.6/Voyage-Workbench-0.2.6-windows-x64.exe) |
+| Linux x64 | [Linux application archive](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.6/Voyage-Workbench-0.2.6-linux-x64.tar.gz) |
 
-[SHA-256 checksums](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.5/SHA256SUMS-0.2.5.txt)
+[SHA-256 checksums](https://github.com/sign-out/voyage-workbench-downloads/releases/download/v0.2.6/SHA256SUMS-0.2.6.txt)
 
-This build introduces Graphite's muted dark adaptive master/detail interface, compact desktop navigation, mobile bottom navigation, and matching Android system bars. All 15 tools remain accessible through All tools; Files & sync retains JSON import/export and explicit Voyage actions. Light and System appearance options remain available.
+This build moves appearance into Settings and adds user-selectable desktop/phone shortcuts with persistent tool ordering. All 16 tools remain available through All tools. Publication layouts now open full-screen with fixed phone/desktop reference sizes, actual-size scrolling and proportional fit-width scaling. Covers, grading evidence, generated map art and selected uploads offer uncropped full-size inspection. Public-page layouts remain approximate, not live-site screenshots. Package-metadata/tree separation remains unfinished and is not included in this build.
 
-Install the Android APK over the existing app; do not uninstall if you want to retain local projects. The signing certificate is unchanged and version code is 7. Back up important worlds using Export JSON before testing. Extract the entire Linux archive and run `run-linux.sh`. Windows is unsigned. Android uses the existing development signing certificate. Windows and physical ARM64-phone execution are not certified.
+Install the Android APK over the existing app; do not uninstall if you want to retain local projects. The signing certificate is unchanged and version code is 8. Back up important worlds using Export JSON before testing. Extract the entire Linux archive and run `run-linux.sh`. Windows is unsigned. Android uses the existing development signing certificate. Windows and physical ARM64-phone execution are not certified.
 
 Existing editors and data handling remain, including Android Codex support, exact JSON, local saving, drafts, checkpoints, proposal review, Alpha-only Voyage import/save, publication/cover-crop previews, and rubric-based cover generation/grading with Building-model defaults and manual overrides. No automatic cover upload or publication occurs.
 
-Verification includes 69 passing app/core/desktop-service tests, the passing 23-test native instrumentation suite on the x86_64 release APK, and Electron smoke checks across all 15 tools at three viewport widths. Credential-dependent native cases remain assumption-gated. Packaged versions, build assets, notices, signing certificates, and upload checksums are verified.
+Verification includes 77 passing app/core/desktop-service/UI tests, the passing 23-test native instrumentation suite on the x86_64 release APK, and Electron smoke checks across all 16 tools at three viewport widths. Saved tool layouts survive UI reload. Fixed-size previews, proportional scaling, focus restoration and actual-pixel image inspection are checked. Credential-dependent native cases remain assumption-gated. Packaged versions, build assets, notices, signing certificates and all six GitHub upload SHA-256 digests are verified.
 
 No application-source repository or separate source archive is uploaded here. GitHub's autogenerated tag archives contain this downloads repository's documentation, not the application's source repository. Compiled JavaScript remains inspectable inside the built apps; original application-source maps are excluded from desktop packages.
 
